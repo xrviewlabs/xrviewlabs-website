@@ -80,7 +80,7 @@ h2 { font-size: clamp(1.8rem, 3.35vw, 2.55rem); letter-spacing: -.043em; line-he
 .about-band { background: var(--pale); border-block: 1px solid var(--line); }
 .about-inner { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 30px; }
 .about-inner p, .contact p { margin-top: 12px; max-width: 48ch; }
-.disciplines { display: grid; grid-template-columns: repeat(3, 1fr); }
+.disciplines { display: grid; grid-template-columns: repeat(auto-fit, minmax(95px, 1fr)); row-gap: 14px; }
 .disciplines div { padding: 4px 12px 4px 18px; border-left: 1px solid #b9cee9; }
 .disciplines dt { color: var(--blue); font-size: 1.25rem; font-weight: 780; margin-bottom: 5px; }
 .disciplines dd { color: var(--muted); font-size: .9rem; line-height: 1.4; }
